@@ -1,4 +1,4 @@
-# [Firebase Firestore](https://firebase.google.com/docs/firestore) 
+# [Firebase Firestore](https://firebase.google.com/docs/firestore) :firebase:
 **Firebase Firestore** je mrežna, fleksibilna in skalabilna baza podatkov v oblaku, ki je del Firebase platforme, ki jo upravlja Google.
 Je prilagodljiva, razširljiva podatkovna baza za mobilni, spletni in strežniški razvoj iz storitev Firebase in Google Cloud. 
 Podobno kot Firebase Realtime Database ohranja sinhronizacijo podatkov med klientovimi aplikacijami s pomočjo poslušalcev v realnem času in zagotavlja brezhibno delovanje brez povezave na mobilnih napravah in na spletu. 
