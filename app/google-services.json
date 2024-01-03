@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "214119433979",
+    "project_id": "phone-book-pora-naloga",
+    "storage_bucket": "phone-book-pora-naloga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214119433979:android:cb981739d59fa5917d925e",
+        "android_client_info": {
+          "package_name": "com.example.phone_book"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvjqscNt8g-4zVVJZxRP8nQlLNm27Q_OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
