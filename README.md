@@ -19,17 +19,19 @@ Cloud Firestore ima ključne sposobnosti, kot so:
 4. **Podpora brez povezave:** Cloud Firestore predpomni podatke, ki jih vaša aplikacija aktivno uporablja, tako da lahko aplikacija piše, bere, posluša, in poizveduje podatke tudi, ko je naprava brez povezave. Ko se naprava ponovno poveže, Cloud Firestore sinhronizira vse lokalne spremembe nazaj v storitev Cloud Firestore.
 
 5. **Zasnovan za razširljivost**
-## Prednosti in slabosti
 
-| PREDNOSTI :heavy_plus_sign:                                               | SLABOSTI :heavy_minus_sign:                                                                                                          |
-|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Realnočasno posodabljanje podatkov                                        | Cena                                                                                                                                 |
-| Skalabilnost                                                              | Omejena kompleksnost poizvedb                                                                                                        |
-| Enostavna integracija z drugimi storitvami Firebase                       | Omejitve indeksiranja                                                                                                                |
-| Fleksibilna shema podatkov:                                               | Omejena podpora za transakcije                                                                                                       |
-| Učinkovito iskanje in poizvedovanje                                       | Omejeno število povezanih podatkov v dokumentih                                                                                      |
-| Vgrajena varnost                                                          | Omejitve glede velikosti dokumentov                                                                                                  |
-| Enostavna uporaba v mobilnih in spletnih aplikacijah                     | Odvisnost od storitve v oblaku                                                                                                       |
+
+## [Prednosti in slabosti](https://blog.back4app.com/firebase-advantages-and-disadvantages/)
+
+| Prednosti :heavy_plus_sign:                          | Slabosti :heavy_minus_sign:                       |
+|------------------------------------------------------|---------------------------------------------------|
+| Realnočasno posodabljanje podatkov                   | Kompleksno ocenjevanje obračuna                   |
+| Skalabilnost                                         | Omejena kompleksnost poizvedb                     |
+| Enostavna integracija z drugimi storitvami Firebase  | Ni na voljo globalno                              |
+| Fleksibilna shema podatkov                           | Uporaba in omejitve                               |
+| Učinkovito iskanje in poizvedovanje                  | Omejeno na Google Cloud                           |
+| Vgrajena varnost                                     | Manjka namenska strežniška in podjetniška podpora |
+| Enostavna uporaba v mobilnih in spletnih aplikacijah | Odvisnost od storitve v oblaku                    |
 
 ## [Licenca](https://github.com/firebase)
 Apache 2.0 licenca in MIT licenca
@@ -58,5 +60,9 @@ dependencies {
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
+![img_7.png](img_7.png)
+![img_8.png](img_8.png)
 
 
