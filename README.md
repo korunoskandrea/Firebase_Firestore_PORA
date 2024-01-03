@@ -1,26 +1,24 @@
-# [Firebase Firestore](https://firebase.google.com/docs/firestore) :firebase:
-**Firebase Firestore** je mrežna, fleksibilna in skalabilna baza podatkov v oblaku, ki je del Firebase platforme, ki jo upravlja Google.
-Je prilagodljiva, razširljiva podatkovna baza za mobilni, spletni in strežniški razvoj iz storitev Firebase in Google Cloud. 
-Podobno kot Firebase Realtime Database ohranja sinhronizacijo podatkov med klientovimi aplikacijami s pomočjo poslušalcev v realnem času in zagotavlja brezhibno delovanje brez povezave na mobilnih napravah in na spletu. 
-Tako lahko ustvarjate odzivne aplikacije, ki delujejo ne glede na omrežno latenco ali internetno povezljivost. 
+# [Firebase Firestore](https://firebase.google.com/docs/firestore)
+**Firebase Firestore** je oblak-based, prilagodljiv, in razširljiv podatkovni sistem, ki je del Firebase platforme, ki jo upravlja Google.
+Je prilagodljiva, razširljiva podatkovna baza za mobilni, spletni, in strežniški razvoj iz Firebase in Google Cloud storitev.
+Podobno kot Firebase Realtime Database ohranja sinhronizacijo podatkov med klientovimi aplikacijami s pomočjo poslušalcev v realnem času in zagotavlja brezhibno delovanje brez povezave na mobilnih napravah in na spletu.
+S tem omogoča ustvarjanje odzivnih aplikacij, ki delujejo ne glede na omrežno latenco ali internetno povezljivost.
 Cloud Firestore prav tako omogoča brezhibno integracijo z drugimi izdelki Firebase in Google Cloud, vključno z oblakovo funkcionalnostjo.
 
-Firebase Firestore lahko vključite v vašim projektom prek programom Android studio (Tools -> Firebase -> Cloud Firestore) ali preko implementiranje (sledenje) korakov dokumentacije
-
+Firebase Firestore lahko vključite v vaš projekt prek programa Android Studio (Orodja -> Firebase -> Cloud Firestore) ali s sledenjem korakom dokumentacije.
 
 ## Zakaj Cloud Firestore?
 
-Cloud Firestore ima ključne sposobnosti kot:
-1. Prilagodljivost:  Lahko shranjujte svoje podatke v dokumentih, organiziranih v zbirke. Dokumenti lahko vsebujejo kompleksne gnezdene objekte poleg podzbirk.
+Cloud Firestore ima ključne sposobnosti, kot so:
+1. **Prilagodljivost:** Shranjujte podatke v dokumentih, organiziranih v zbirke. Dokumenti lahko vsebujejo kompleksne gnezdene objekte poleg podzbirk.
 
-2. Izrazito poizvedovanje: Lahko uporabljate poizvedbe za pridobivanje posameznih, določenih dokumentov ali za pridobivanje vseh dokumentov v zbirki, ki se ujemajo s parametri vaše poizvedbe. Vaše poizvedbe lahko vključujejo več zaporednih filtrov in združujejo filtriranje ter razvrščanje. Privzeto so tudi indeksirane, zato je učinkovitost poizvedbe sorazmerna s velikostjo vašega rezultatnega nabora, ne pa vašega podatkovnega nabora.
+2. **Izrazito poizvedovanje:** Uporabljajte poizvedbe za pridobivanje posameznih, določenih dokumentov ali za pridobivanje vseh dokumentov v zbirki, ki se ujemajo s parametri vaše poizvedbe. Poizvedbe lahko vključujejo več zaporednih filtrov in združujejo filtriranje ter razvrščanje. Privzeto so tudi indeksirane, zato je učinkovitost poizvedbe sorazmerna s velikostjo rezultatnega nabora, ne pa vašega podatkovnega nabora.
 
-3. Posodobitve v realnem času: Kot pri Realtime Database storitvi tudi Cloud Firestore uporablja sinhronizacijo podatkov za posodabljanje podatkov na kateri koli povezani napravi. Kljub temu je zasnovan tudi za učinkovito izvajanje preprostih poizvedb, ki jih izvedete samo enkrat.
+3. **Posodobitve v realnem času:** Kot pri storitvi Realtime Database uporablja Cloud Firestore sinhronizacijo podatkov za posodabljanje podatkov na kateri koli povezani napravi. Kljub temu je zasnovan tudi za učinkovito izvajanje preprostih poizvedb, ki jih izvedete samo enkrat.
 
-4. Podpora brez povezave: Cloud Firestore predpomni podatke, ki jih vaša aplikacija aktivno uporablja, tako da lahko aplikacija piše, bere, posluša in poizveduje podatke tudi, ko je naprava brez povezave. Ko se naprava ponovno poveže, Cloud Firestore sinhronizira vse lokalne spremembe nazaj v storitev Cloud Firestore.
+4. **Podpora brez povezave:** Cloud Firestore predpomni podatke, ki jih vaša aplikacija aktivno uporablja, tako da lahko aplikacija piše, bere, posluša, in poizveduje podatke tudi, ko je naprava brez povezave. Ko se naprava ponovno poveže, Cloud Firestore sinhronizira vse lokalne spremembe nazaj v storitev Cloud Firestore.
 
-5. Zasnovan za razširjanje: Cloud Firestore vam prinaša najboljše iz močne infrastrukture storitve Google Cloud: samodejno razmnoževanje podatkov v več regijah, zagotovila močne doslednosti, atomski skupinski operacije in pravo podporo za transakcije. Cloud Firestore smo zasnovali za obvladovanje najzahtevnejših obremenitev podatkovnih baz največjih aplikacij na svetu.
-
+5. **Zasnovan za razširjanje:** Cloud Firestore prinaša najboljše iz močne infrastrukture storitve Google Cloud: samodejno razmnoževanje podatkov v več regijah, zagotovila močne doslednosti, atomski skupinski operacije, in pravo podporo za transakcije. Cloud Firestore smo zasnovali za obvladovanje najzahtevnejših obremenitev podatkovnih baz največjih aplikacij na svetu.
 
 ## Prednosti in slabosti
 
@@ -55,5 +53,11 @@ dependencies {
 }
 ```
 
-## Primer aplikacije
+## Primer aplikacije 
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+
 
