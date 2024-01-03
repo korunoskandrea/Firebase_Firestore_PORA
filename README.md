@@ -18,8 +18,7 @@ Cloud Firestore ima ključne sposobnosti, kot so:
 
 4. **Podpora brez povezave:** Cloud Firestore predpomni podatke, ki jih vaša aplikacija aktivno uporablja, tako da lahko aplikacija piše, bere, posluša, in poizveduje podatke tudi, ko je naprava brez povezave. Ko se naprava ponovno poveže, Cloud Firestore sinhronizira vse lokalne spremembe nazaj v storitev Cloud Firestore.
 
-5. **Zasnovan za razširjanje:** Cloud Firestore prinaša najboljše iz močne infrastrukture storitve Google Cloud: samodejno razmnoževanje podatkov v več regijah, zagotovila močne doslednosti, atomski skupinski operacije, in pravo podporo za transakcije. Cloud Firestore smo zasnovali za obvladovanje najzahtevnejših obremenitev podatkovnih baz največjih aplikacij na svetu.
-
+5. **Zasnovan za razširljivost**
 ## Prednosti in slabosti
 
 | PREDNOSTI :heavy_plus_sign:                                               | SLABOSTI :heavy_minus_sign:                                                                                                          |
@@ -30,7 +29,7 @@ Cloud Firestore ima ključne sposobnosti, kot so:
 | Fleksibilna shema podatkov:                                               | Omejena podpora za transakcije                                                                                                       |
 | Učinkovito iskanje in poizvedovanje                                       | Omejeno število povezanih podatkov v dokumentih                                                                                      |
 | Vgrajena varnost                                                          | Omejitve glede velikosti dokumentov                                                                                                  |
-| NEnostavna uporaba v mobilnih in spletnih aplikacijah                     | Odvisnost od storitve v oblaku                                                                                                       |
+| Enostavna uporaba v mobilnih in spletnih aplikacijah                     | Odvisnost od storitve v oblaku                                                                                                       |
 
 ## [Licenca](https://github.com/firebase)
 Apache 2.0 licenca in MIT licenca
