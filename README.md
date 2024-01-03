@@ -1,8 +1,8 @@
 # [Firebase Firestore](https://firebase.google.com/docs/firestore)
-**Firebase Firestore** je oblak-based, prilagodljiv, in razširljiv podatkovni sistem, ki je del Firebase platforme, ki jo upravlja Google.
-Je prilagodljiva, razširljiva podatkovna baza za mobilni, spletni, in strežniški razvoj iz Firebase in Google Cloud storitev.
-Podobno kot Firebase Realtime Database ohranja sinhronizacijo podatkov med klientovimi aplikacijami s pomočjo poslušalcev v realnem času in zagotavlja brezhibno delovanje brez povezave na mobilnih napravah in na spletu.
-S tem omogoča ustvarjanje odzivnih aplikacij, ki delujejo ne glede na omrežno latenco ali internetno povezljivost.
+**Firebase Firestore** je prilagodljiv, in razširljiv podatkovni sistem del Firebase-ove platforme, ki jo upravlja Google (deluje v oblaku).
+Primeren je razvoj mobilnih, spletnih, in strežniških aplikacij.
+Podobno kot Firebase Realtime Database ohranja sinhronizacijo podatkov med aplikacijami s pomočjo poslušalcev v realnem času in zagotavlja brezhibno delovanje brez povezave na mobilnih napravah in na spletu (predpomnilnik).
+S tem omogoča ustvarjanje odzivnih aplikacij, ki delujejo ne glede internetno povezljivost.
 Cloud Firestore prav tako omogoča brezhibno integracijo z drugimi izdelki Firebase in Google Cloud, vključno z oblakovo funkcionalnostjo.
 
 Firebase Firestore lahko vključite v vaš projekt prek programa Android Studio (Orodja -> Firebase -> Cloud Firestore) ali s sledenjem korakom dokumentacije.
