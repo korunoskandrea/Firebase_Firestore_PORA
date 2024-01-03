@@ -12,11 +12,15 @@ object ContactService {
     val contacts = mutableStateListOf<Contact>()
 
     init {
-        getContacts()
+        getContacts() // To prevent duplication when rotating
     }
 
-    fun getContacts() = CoroutineScope(Dispatchers.IO).launch {
+    fun getContacts() {
         Firebase.firestore.collection("contacts").get().addOnSuccessListener {
+            /*
+            * When this method gets called all contacts from the database are retrieved
+            * So we can throw out (clear) the old state (list) and replace it with the new accurate one (from db)
+            * */
             contacts.clear()
             for (document in it) {
                 contacts.add(Contact.fromSnapshot(document))
@@ -24,7 +28,7 @@ object ContactService {
         }
     }
 
-    fun createContact(name: String, note: String, phoneNumber: String) = CoroutineScope(Dispatchers.IO).launch {
+    fun createContact(name: String, note: String, phoneNumber: String) {
         val contact = Contact(name = name, phoneNumber = phoneNumber, note = note);
 
         Firebase.firestore.collection("contacts").add(object {
@@ -37,14 +41,14 @@ object ContactService {
         }
     }
 
-    fun removeContact(contact: Contact) = CoroutineScope(Dispatchers.IO).launch {
+    fun removeContact(contact: Contact) {
         Firebase.firestore.collection("contacts").document(contact.id).delete()
             .addOnSuccessListener {
                 contacts.remove(contact)
             }
     }
 
-    fun editContact(name: String, note: String, phoneNumber: String, id: String) = CoroutineScope(Dispatchers.IO).launch {
+    fun editContact(name: String, note: String, phoneNumber: String, id: String) {
         Firebase.firestore.collection("contacts").document(id).set(object {
             val name = name
             val note = note

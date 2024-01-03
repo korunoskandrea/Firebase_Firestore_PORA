@@ -192,15 +192,13 @@ fun ContactTile(contact: Contact, onLongClick: () -> Unit) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                if (contact.image == null) {
-                    Icon(
-                        Icons.Rounded.AccountCircle,
-                        Icons.Rounded.AccountCircle.name,
-                        Modifier
-                            .size(35.dp)
-                            .padding(end = 10.dp)
-                    )
-                }
+                Icon(
+                    Icons.Rounded.AccountCircle,
+                    Icons.Rounded.AccountCircle.name,
+                    Modifier
+                        .size(35.dp)
+                        .padding(end = 10.dp)
+                )
                 Text(
                     text = contact.name,
                     style = MaterialTheme.typography.bodyLarge,

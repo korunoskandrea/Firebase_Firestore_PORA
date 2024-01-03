@@ -6,7 +6,6 @@ import com.google.firebase.firestore.QueryDocumentSnapshot
 class Contact(
     var name: String,
     var phoneNumber: String,
-    var image: Image? = null,
     var note: String = "",
     var id: String  = "",
 ) {
