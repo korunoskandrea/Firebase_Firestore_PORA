@@ -39,7 +39,7 @@ Apache 2.0 licenca in MIT licenca
 ## Zanimivi podatki
 
 Po svetu je leta 2023 več kot 1.159 podjetij začelo uporabljati Google Cloud Firestore kot orodje za NoSQL podatkovne baze. Podjetja, ki uporabljajo Google Cloud Firestore za NoSQL podatkovne baze, so večinoma iz Združenih držav, kjer ima 421 strank.
-Zadnja posoobitev je bila 2.1.2024 (Podpora za lokaciji europe-west1 (Belgija) in me-central2 (Dammam). Imajo redno posodabljanje - skoraj dvakrat mesečno.
+Zadnja posoobitev je bila 2.1.2024 (Podpora za lokaciji europe-west1 (Belgija) in me-central2 (Dammam)). Imajo redno posodabljanje - skoraj dvakrat mesečno.
 
 ## Gradle elementi
 
